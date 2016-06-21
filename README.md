@@ -1,2 +1,9 @@
-# DeepLearning_Cheatsheet_Kor
-# DeepLearning_Cheatsheet_Kor
+# DeepLearning Cheatsheet Kor
+
+# Autoencoder
+
+# Convolutional Neural Networks 
+
+# ReLU
+
+# Dropout
