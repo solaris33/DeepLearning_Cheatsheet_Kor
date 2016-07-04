@@ -6,7 +6,13 @@ Neural Netowkrs는 Backpropagation 알고리즘을 통해 최상단의 레이어
 
 # Autoencoder
 
-# Convolutional Neural Networks 
+# Convolutional Neural Networks (CNNs)
+
+# Recurrent Neural Netwokrs (RNNs)
+
+# LSTM networks
+
+# Restrict Boltzman Machine
 
 # ReLU
 
