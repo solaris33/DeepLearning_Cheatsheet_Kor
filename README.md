@@ -11,9 +11,8 @@ Neural Netowkrs는 Backpropagation 알고리즘을 통해 최상단의 레이어
 # Autoencoder
 인풋과 아웃풋 노드의 개수가 같은 형태의 Neural Netowrks. Unsupervised Learning을 위해 사용된다. 인풋 노드와 아웃풋 노드의 수가 같으므로 항등 함수를 배우도록 training 된다. 이때 히든 레이어의 노드 개수가 아웃풋 레이어의 노드 개수보다 작으므로 히든 레이어는 인풋레이어에 관한 정보를 압축해서 저장해야만 한다. 따라서 히든 유닛들은 인풋 레이어에 대한 특징들(Features)을 저장하도록 학습된다. 따라서 이 히든 레이어의 아웃풋을 추출해서 유용한 특징(Feature)으로 사용할 수 있다.
 
-![alt tag](/images/autoencoder_architecture.png)
 <p align="center">
-<img src="https://github.com/solaris33/DeepLearning_Cheatsheet_Kor/blob/master/images/autoencoder_architecture.png?raw=true">
+<img src="https://raw.githubusercontent.com/solaris33/DeepLearning_Cheatsheet_Kor/master/images/autoencoder_architecture.png">
 <i>Autoencoder의 Architecture</i>
 </p>
 
