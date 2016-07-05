@@ -5,7 +5,7 @@ Neural Netowkrs는 Backpropagation 알고리즘을 통해 최상단의 레이어
 
 ![alt tag](/images/vanishing_gradient_problem.png)
 <p align="center">
-<i>RNN에서 나타나는 Vanishing gradient problem</i>
+<i>RNN에서 나타나는 시간에 따른 Vanishing gradient problem</i>
 </p>
 
 # Autoencoder
