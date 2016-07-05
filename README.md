@@ -13,6 +13,7 @@ Neural Netowkrs는 Backpropagation 알고리즘을 통해 최상단의 레이어
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/solaris33/DeepLearning_Cheatsheet_Kor/master/images/autoencoder_architecture.png">
+<br>
 <i>Autoencoder의 Architecture</i>
 </p>
 
