@@ -1,4 +1,4 @@
-# DeepLearning Cheatsheet Kor
+# DeepLearning Cheatsheet
 한눈에 살펴보는 딥러닝 관련 용어들
 ## Theory (이론들)
 #### Vanishing Gradient Problem (경사 사라짐 문제)
