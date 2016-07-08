@@ -6,11 +6,11 @@
    - [Vanishing Gradient Problem](#vanishing-gradient-problem)
  - [Nueral Networks Architectures](#nueral-networks-architectures)
    - [Autoencoder](#autoencoder)
-   - [Convolutional Neural Networks (CNNs)](#convolutional-neural-networks-(cnns))
-   - [Recurrent Neural Netwokrs (RNNs)](#recurrent-neural-Netwokrs-(rnns))
+   - [Convolutional Neural Networks (CNNs)](#convolutional-neural-networks)
+   - [Recurrent Neural Networks (RNNs)](#recurrent-neural-netwokrs)
 
-## Theory (이론들)
-### Vanishing Gradient Problem (경사 사라짐 문제)
+## Theory
+### Vanishing Gradient Problem
 Neural Netowkrs는 Backpropagation 알고리즘을 통해 최상단의 레이어(아웃풋 레이어)로부터 최하단의 레이어(인풋 레이어)까지 오류를 역전파하는 방식으로 데이터에 적절한 파라미터 값을 같도록 학습을 진행한다. 이때 히든 레이어를 여러 층 쌓게 되면 아웃풋 레이어로부터 오류가 역전파 되면서 오류의 정보를 가지고 있는 경사값이 중간 히든레이어에서 사라지고 최하단의 인풋레이어까지 이 정보값이 전달되지 않는 문제가 있었다. 이런 문제를 Vanishing Gradient Problem(경사 사라짐 문제)이라고 한다. 이는 기존의 Neural Networks를 깊게(Deep) 쌓게 하지 못하는 근본적인 원인이었다. 이 문제를 해결하기 위해 Pre-training과 LSTM Networks 등의 방법이 제안되었고 현재는 이 문제를 상당 부분 해결했기 때문에 딥 러닝(Deep Learning)이 좋은 퍼포먼스를 보여주고 있다. 
 
 ![alt tag](/images/vanishing_gradient_problem.png)
@@ -23,7 +23,7 @@ Neural Netowkrs는 Backpropagation 알고리즘을 통해 최상단의 레이어
 ### Dropout
 
 
-## Nueral Networks Architectures (뉴럴 네트워크 구조들)
+## Nueral Networks Architectures
 ### Autoencoder
 인풋과 아웃풋 노드의 개수가 같은 형태의 Neural Netowrks. Unsupervised Learning을 위해 사용된다. 인풋 노드와 아웃풋 노드의 수가 같으므로 항등 함수를 배우도록 training 된다. 이때 히든 레이어의 노드 개수가 아웃풋 레이어의 노드 개수보다 작으므로 히든 레이어는 인풋레이어에 관한 정보를 압축해서 저장해야만 한다. 따라서 히든 유닛들은 인풋 레이어에 대한 특징들(Features)을 저장하도록 학습된다. 따라서 이 히든 레이어의 아웃풋을 추출해서 유용한 특징(Feature)으로 사용할 수 있다.
 
@@ -48,7 +48,7 @@ Convolution Layer, Subsampling (Pooling) Layer, Fully Connetecd Layer로 구성�
 <i>일반적인 Convolutional Neural Networks의 구조</i>
 </p>
 
-### Recurrent Neural Netwokrs (RNNs)
+### Recurrent Neural Networkrs (RNNs)
 기존의 Neural Networks의 Hidden Layer에 Self Connetecd Weight를 추가한 형태의 Neural Networks. Supervised Learning을 위해 사용된다. 기존의 Neural Networks의 경우 시간에 따른 데이터의 변화를 적절한 방법으로 저장하고 있을 수 있는 방법이 없었다. Recurrent Neural Networks는 이 문제를 해결하기 위해 히든 레이어에 Self Conneteced Weight를 추가함으로써 시간에 따른 데이터의 변화를 다룰 수 있게 되었다. 시계열 데이터 혹은 정적인 데이터도 시계열 형태로 표현하여 RNNs을 적용할 수 있다. 시계열 형태로 표현할 수 있는 Natural Language Processing (NLP)과 같은 도메인에서 활발히 사용되고 있는 추세이다.
 
 <p align="center">
