@@ -2,12 +2,12 @@
 한눈에 살펴보는 딥러닝 관련 용어들
 
 ## Table of Contents
- - [Theory](#Theory)
-   - [Vanishing Gradient Problem](#Vanishing-Gradient-Problem)
- - [Nueral Networks Architectures](#Nueral-Networks-Architectures)
-   - [Autoencoder](#Autoencoder)
-   - [Convolutional Neural Networks (CNNs)](#Convolutional Neural Networks (CNNs))
-   - [Recurrent Neural Netwokrs (RNNs)](#Recurrent Neural Netwokrs (RNNs))
+ - [Theory](#theory)
+   - [Vanishing Gradient Problem](#vanishing-gradient-problem)
+ - [Nueral Networks Architectures](#nueral-networks-architectures)
+   - [Autoencoder](#autoencoder)
+   - [Convolutional Neural Networks (CNNs)](#convolutional-neural-networks-(cnns))
+   - [Recurrent Neural Netwokrs (RNNs)](#recurrent-neural-Netwokrs-(rnns))
 
 ## Theory (이론들)
 ### Vanishing Gradient Problem (경사 사라짐 문제)
