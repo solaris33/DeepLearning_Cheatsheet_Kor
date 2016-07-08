@@ -30,8 +30,9 @@ Neural Netowkrs는 Backpropagation 알고리즘을 통해 최상단의 레이어
 <i>Autoencoder의 히든레이어의 아웃풋으로부터 추출된 특징들(Features)</i>
 </p>
 
-
 ### Convolutional Neural Networks (CNNs)
+Convolution Layer, Subsampling (Pooling) Layer, Fully Connetecd Layer로 구성된 Neural Networks. 기존의 Neural Networks는 인풋 데이터 사이즈가 커지면 계산량이 기하급수적으로 증가하는 문제점이 있었다. 따라서, 이미지와 같이 인풋 데이터의 dimension이 큰 경우를 다루기 위해서 Convolution Neural Networks(CNNs)가 제안되었다. CNNs는 로우 인풋 데이터로부터 Convolution Layer를 통해 유의미한 피쳐들만을 추출하고, 이어서 Subsmapling (Pooling) Layer 를 통해 Convolution Layer로부터 추출된 결과값의 dimension을 축소시킨다. 이런 과정을 반복한 후 마지막 Fully Connetecd Layer에서 압축된 Feature를 통해 Classification과 같은 prediction을 수행한다.
+
 
 ### Recurrent Neural Netwokrs (RNNs)
 
