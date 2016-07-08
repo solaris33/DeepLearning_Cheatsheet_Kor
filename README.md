@@ -3,13 +3,11 @@
 
 ## Table of Contents
  - [Theory](#Theory)
-   - [Vanishing Gradient Problem](#Vanishing Gradient Problem)
- - [Nueral Networks Architectures](#Nueral Networks Architectures)
+   - [Vanishing Gradient Problem](#Vanishing-Gradient-Problem)
+ - [Nueral Networks Architectures](#Nueral-Networks-Architectures)
    - [Autoencoder](#Autoencoder)
-   - [Robotics](#robotics)
-   - [Control](#control)
-   - [Operations Research](#operations-research)
-   - [Human Computer Interaction](#human-computer-interaction)
+   - [Convolutional Neural Networks (CNNs)](#Convolutional Neural Networks (CNNs))
+   - [Recurrent Neural Netwokrs (RNNs)](#Recurrent Neural Netwokrs (RNNs))
 
 ## Theory (이론들)
 ### Vanishing Gradient Problem (경사 사라짐 문제)
