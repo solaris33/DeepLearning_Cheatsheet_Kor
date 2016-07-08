@@ -42,6 +42,12 @@ Convolution Layer, Subsampling (Pooling) Layer, Fully Connetecd Layer로 구성�
 ### Recurrent Neural Netwokrs (RNNs)
 기존의 Neural Networks의 Hidden Layer에 Self Connetecd Weight를 추가한 형태의 Neural Networks. Supervised Learning을 위해 사용된다. 기존의 Neural Networks의 경우 시간에 따른 데이터의 변화를 적절한 방법으로 저장하고 있을 수 있는 방법이 없었다. Recurrent Neural Networks는 이 문제를 해결하기 위해 히든 레이어에 Self Conneteced Weight를 추가함으로써 시간에 따른 데이터의 변화를 다룰 수 있게 되었다. 시계열 데이터 혹은 정적인 데이터도 시계열 형태로 표현하여 RNNs을 적용할 수 있다. 시계열 형태로 표현할 수 있는 Natural Language Processing (NLP)과 같은 도메인에서 활발히 사용되고 있는 추세이다.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/solaris33/DeepLearning_Cheatsheet_Kor/master/images/recurrent_neural_networks.png">
+<br>
+<i>간단한 Recurrent Neural Networks의 구조</i>
+</p>
+
 
 ### LSTM networks
 
