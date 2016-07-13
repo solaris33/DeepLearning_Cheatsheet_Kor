@@ -7,7 +7,7 @@
  - [Nueral Networks Architectures](#nueral-networks-architectures)
    - [Autoencoder](#autoencoder)
    - [Convolutional Neural Networks (CNNs)](#convolutional-neural-networks-cnns)
-   - [Recurrent Neural Networks (RNNs)](#recurrent-neural-netwokrs-rnns)
+   - [Recurrent Neural Networks (RNNs)](#recurrent-neural-networks-rnns)
 
 ## Theory
 ### Vanishing Gradient Problem
