@@ -20,6 +20,22 @@ Neural Netowkrs는 Backpropagation 알고리즘을 통해 최상단의 레이어
 
 ### ReLU
 
+Rectified Linear Unit(ReLU)의 약자. Neural Networks의 Activation function 중 하나. 최근에 sigmoid activation function 대신 많이 사용된다.
+
+f(x) = max(0,x) ~ ln(1+e^x)
+
+로 정의된다. ReLU Activation function은 기존의 sigmoid activation function과 비교해서 다음의 두가지 장점을 가진다.
+
+1. 기존의 sigmoid activation function은 x의 값이 일정 수준 이상 커지거나 작아지면 gradient 값이 0이 되어 레이어를 깊게 쌓을 때 Vanishing Gradient Problem이 발생하였다. 이에 반해, ReLU activation function은 x가 0보다 크면 항상 1의 기울기를 가지므로 Vanishing Gradient Problem이 발생하지 않고, 더욱 바른 학습이 가능하다.
+
+2. ReLU activation function의 경우 x가 0보다 작으면 0의 기울기 값을 가지므로 Hidden unit들이 sparse하게 특징을 학습하도록 유도할 수 있다.
+
+![alt tag](/images/relu.png)
+<p align="center">
+<i>여러 종류의 activation function</i>
+</p>
+
+
 ### Dropout
 
 
