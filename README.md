@@ -4,6 +4,7 @@
 ## Table of Contents
  - [Theory](#theory)
    - [Vanishing Gradient Problem](#vanishing-gradient-problem)
+   - [ReLU](#relu)
  - [Nueral Networks Architectures](#nueral-networks-architectures)
    - [Autoencoder](#autoencoder)
    - [Convolutional Neural Networks (CNNs)](#convolutional-neural-networks-cnns)
