@@ -30,10 +30,12 @@ f(x) = max(0,x) ~ ln(1+e^x)
 
 2. ReLU activation function의 경우 x가 0보다 작으면 0의 기울기 값을 가지므로 Hidden unit들이 sparse하게 특징을 학습하도록 유도할 수 있다.
 
-![alt tag](/images/relu.png)
 <p align="center">
-<i>여러 종류의 activation function</i>
+<img src="https://raw.githubusercontent.com/solaris33/DeepLearning_Cheatsheet_Kor/master/images/relu.png">
+<br>
+<i>여러 종류의 Activation Function들</i>
 </p>
+
 
 
 ### Dropout
