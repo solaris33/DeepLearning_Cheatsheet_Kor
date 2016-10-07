@@ -5,6 +5,7 @@
  - [Theory](#theory)
    - [Vanishing Gradient Problem](#vanishing-gradient-problem)
    - [ReLU](#relu)
+   - [Dropout](#dropout)
  - [Nueral Networks Architectures](#nueral-networks-architectures)
    - [Autoencoder](#autoencoder)
    - [Convolutional Neural Networks (CNNs)](#convolutional-neural-networks-cnns)
@@ -43,7 +44,7 @@ f(x) = max(0,x) ~ ln(1+e^x)
 Overfitting을 방지하기 위한 기법, Nueral Networks의 학습과정에서 node들을 일정 확률로 Drop(사용하지 않음)한다.  
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/solaris33/DeepLearning_Cheatsheet_Kor/master/images/dropout.jpg">
+<img src="https://raw.githubusercontent.com/solaris33/DeepLearning_Cheatsheet_Kor/master/images/dropout_image.jpg">
 <br>
 <i>기본 Neural Networks와 Dropout을 적용한 Neural Networks</i>
 </p>
