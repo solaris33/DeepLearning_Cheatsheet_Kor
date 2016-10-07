@@ -38,9 +38,15 @@ f(x) = max(0,x) ~ ln(1+e^x)
 </p>
 
 
-
 ### Dropout
 
+Overfitting을 방지하기 위한 기법, Nueral Networks의 학습과정에서 node들을 일정 확률로 Drop(사용하지 않음)한다.  
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/solaris33/DeepLearning_Cheatsheet_Kor/master/images/dropout.png">
+<br>
+<i>기본 Neural Networks와 Dropout을 적용한 Neural Networks</i>
+</p>
 
 ## Nueral Networks Architectures
 ### Autoencoder
