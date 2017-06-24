@@ -10,7 +10,7 @@
    - [Autoencoder](#autoencoder)
    - [Convolutional Neural Networks (CNNs)](#convolutional-neural-networks-cnns)
    - [Recurrent Neural Networks (RNNs)](#recurrent-neural-networks-rnns)
-   - [Long Short-Term Memory(LSTM) Networks](#long-short-term-memory(LSTM)-networks)
+   - [Long Short-Term Memory (LSTM) Networks](#long-short-term-memory-lstm-networks)
 
 ## Theory
 ### Vanishing Gradient Problem
@@ -85,7 +85,7 @@ Convolution Layer, Subsampling (Pooling) Layer, Fully Connetecd Layer로 구성�
 </p>
 
 
-### Long Short-Term Memory(LSTM) Networks
+### Long Short-Term Memory (LSTM) Networks
 Recurrent Neural Networks (RNNs) 구조를 Vanishing Gradient Problem을 해결하기 위해 좀 더 복잡한 구조로 발전시킨 형태의 Neural Networks. LSTM Networks는 RNNs의 Hidden Layer를 Input Gate, Output Gate, Forget Gate라는 세가지 게이트로 구성된 Memory Block으로 대체한 구조이다. 
 
 <p align="center">
